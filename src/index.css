@@ -1,0 +1,56 @@
+main {
+    min-height: 80vh;
+}
+
+header {
+    border-bottom: 5px solid #fff;
+}
+
+header img {
+    margin: 1rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+.likeMovie {
+    padding-top: 0.5rem;
+}
+
+.imageHeart {
+    position: relative;
+}
+
+.imageHeart img {
+    display: block;
+}
+
+.imageHeart i {
+    position: absolute;
+    bottom:0; left:0;
+    padding: 0.5rem;
+    color: #e83283;
+}
+
+.imageHeart i:hover{
+    color: red;
+}
+
+.form-label {
+    margin-top: 2rem;
+}
+
+.likesHeading {
+    text-align: center;
+}
+
+option {
+    background-color: #e83283;
+}
+
+.matches-results {
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
