@@ -19,7 +19,7 @@ import {
   USERS_LIKES_FAIL,
 } from "../constants/userConstants";
 
-const userUrl = 'https://movie-match-2021.herokuapp.com/api/users'
+const userUrl = 'https://movie-match-2021-backend.onrender.com/api/users'
 
 export const login = (email, password) => async (dispatch) => {
   try {
