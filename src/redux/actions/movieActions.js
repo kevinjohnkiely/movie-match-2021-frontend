@@ -5,7 +5,7 @@ import {
 } from "../constants/movieConstants";
 import axios from "axios";
 
-const movieUrl = 'https://movie-match-2021-backend.onrender.com/api/movies'
+const movieUrl = 'https://movie-match-2021-backend.cyclic.app/api/movies'
 
 // action creators
 export const listMovies = () => async (dispatch) => {
